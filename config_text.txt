@@ -1,0 +1,5 @@
+ntp server 1.1.1.1
+clock timezone PST -8
+clock summer-time PDT recurring
+service timestamps debug datetime msec localtime
+service timestamps
