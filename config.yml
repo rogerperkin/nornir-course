@@ -3,9 +3,9 @@
 inventory:
     plugin: SimpleInventory
     options: 
-        host_file: "~/network-programmability/SCRIPTS/Nornir/inventory/hosts.yml"
-        group_file: "~/network-programmability/SCRIPTS/Nornir/inventory/groups.yml"
-        defaults_file: "~/network-programmability/SCRIPTS/Nornir/inventory/defaults.yml"
+        host_file: "/home/roger/nornir-course/inventory/hosts.yml"
+        group_file: "/home/roger/nornir-course/inventory/groups.yml"
+        defaults_file: "/home/roger/nornir-course/inventory/defaults.yml"
 
 runner: 
     plugin: threaded
