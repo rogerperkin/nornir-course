@@ -6,8 +6,6 @@ from nornir.core.filter import F
 
 nr = InitNornir(config_file="./config.yml")
 
-
-
 def configbasic(task):
     task.run(task=netmiko_send_config, config_file="config_text.txt")
     task.run(task=netmiko_send_command, command_string="sh ip int brief")
