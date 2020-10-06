@@ -6,3 +6,17 @@ CSR_Routers:
     ntp: 
       servers: 
         - 1.1.1.1
+
+CSR: 
+
+   data: 
+     ntp:
+       servers:
+        - 2.2.2.2
+
+UK: 
+
+    data:
+      ntp: 
+        servers:
+         - 3.3.3.3

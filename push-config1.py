@@ -12,7 +12,7 @@ def configbasic(task):
     task.run(task=netmiko_save_config)
 #   task.run(task=netmiko_send_command, command_string="wr mem")
     
-devices = nr.filter(F(groups__contains="CSR"))
+devices = nr.filter(F(groups__contains="UK"))
 
 results = devices.run(task = configbasic)
 
