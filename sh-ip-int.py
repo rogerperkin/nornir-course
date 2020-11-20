@@ -7,7 +7,7 @@ nr = InitNornir(config_file="/home/roger/nornir-course/config.yml")
 
 Router = nr.filter(F(groups__contains="CSR_Routers"))
 
-result = Router.run(netmiko_send_command, command_string="sh version")
+result = Router.run(netmiko_send_command, command_string="sh ip int brief")
 
 print_result(result)
 
